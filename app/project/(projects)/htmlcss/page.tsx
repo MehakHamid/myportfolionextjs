@@ -13,10 +13,10 @@ const HtmlCssProjects: React.FC = () => {
 
       {/* Project Cards Section */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {/* Portfolio Website Project */}
+   
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
           <img
-            src="/portfolio-project.jpg" // Replace with actual image path
+            src="/portp1.png"
             alt="Portfolio Website"
             className="w-full h-48 object-cover"
           />
@@ -27,7 +27,7 @@ const HtmlCssProjects: React.FC = () => {
             </p>
             <div className="mt-4 flex space-x-4">
               <a
-                href="https://github.com/yourusername/portfolio"
+                href="https://github.com/MehakHamid/myportfolio"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white bg-gray-800 px-4 py-2 rounded-lg hover:bg-gray-900 transition"
@@ -35,7 +35,7 @@ const HtmlCssProjects: React.FC = () => {
                 GitHub
               </a>
               <a
-                href="https://yourportfolio.vercel.app"
+                href="https://myportfolio-one-khaki.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 transition"
@@ -46,10 +46,10 @@ const HtmlCssProjects: React.FC = () => {
           </div>
         </div>
 
-        {/* Static Resume Project */}
+       
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
           <img
-            src="/static-resume-project.jpg" // Replace with actual image path
+            src="/static.png" 
             alt="Static Resume"
             className="w-full h-48 object-cover"
           />
@@ -60,7 +60,7 @@ const HtmlCssProjects: React.FC = () => {
             </p>
             <div className="mt-4 flex space-x-4">
               <a
-                href="https://github.com/yourusername/static-resume"
+                href="https://github.com/MehakHamid/Static-Interactive-Resume-MH"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white bg-gray-800 px-4 py-2 rounded-lg hover:bg-gray-900 transition"
@@ -68,7 +68,7 @@ const HtmlCssProjects: React.FC = () => {
                 GitHub
               </a>
               <a
-                href="https://staticresume.vercel.app"
+                href="https://static-interactive-resume-mh.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 transition"
@@ -79,10 +79,10 @@ const HtmlCssProjects: React.FC = () => {
           </div>
         </div>
 
-        {/* Dynamic Resume Builder Project */}
+  
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
           <img
-            src="/dynamic-resume-project.jpg" // Replace with actual image path
+            src="/dynamic-resume-project.jpg" 
             alt="Dynamic Resume Builder"
             className="w-full h-48 object-cover"
           />
