@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Projects: React.FC = () => {
   return (
@@ -15,10 +16,12 @@ const Projects: React.FC = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* HTML & CSS Projects Card */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
-          <img
-            src="html.jpg" // Replace with actual image path
+          <Image
+            src="/html.jpg" // Replace with actual image path
             alt="HTML & CSS Projects"
-            className="w-full h-48 object-cover"
+            width={500}
+            height={300}
+            className="object-cover"
           />
           <div className="p-4">
             <h2 className="text-2xl font-semibold text-blue-700">HTML & CSS Projects</h2>
@@ -36,10 +39,12 @@ const Projects: React.FC = () => {
 
         {/* TypeScript Projects Card */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
-          <img
-            src="typescript.png" // Replace with actual image path
+          <Image
+            src="/typescript.png" // Replace with actual image path
             alt="TypeScript Projects"
-            className="w-full h-48 object-cover"
+            width={500}
+            height={300}
+            className="object-cover"
           />
           <div className="p-4">
             <h2 className="text-2xl font-semibold text-blue-700">TypeScript Projects</h2>
@@ -57,10 +62,12 @@ const Projects: React.FC = () => {
 
         {/* Next.js Projects Card */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
-          <img
-            src="nextjs.png" // Replace with actual image path
+          <Image
+            src="/nextjs.png" // Replace with actual image path
             alt="Next.js Projects"
-            className="w-full h-48 object-cover"
+            width={500}
+            height={300}
+            className="object-cover"
           />
           <div className="p-4">
             <h2 className="text-2xl font-semibold text-blue-700">Next.js Projects</h2>
@@ -78,10 +85,12 @@ const Projects: React.FC = () => {
 
         {/* UI/UX Design Projects Card */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
-          <img
+          <Image
             src="/ui.jpg" // Replace with actual image path
             alt="UI/UX Design Projects"
-            className="w-full h-48 object-cover"
+            width={500}
+            height={300}
+            className="object-cover"
           />
           <div className="p-4">
             <h2 className="text-2xl font-semibold text-blue-700">UI/UX Design Projects</h2>

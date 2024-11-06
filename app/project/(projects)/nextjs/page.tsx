@@ -1,9 +1,9 @@
 import React from 'react';
+import Image from 'next/image';
 
 const NextJsProjects: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-blue-100 p-6">
-
       <div className="text-center mb-12">
         <h1 className="text-5xl font-bold text-blue-700 mb-4">Next.js Projects</h1>
         <p className="text-lg text-gray-600">
@@ -11,14 +11,15 @@ const NextJsProjects: React.FC = () => {
         </p>
       </div>
 
-
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         
-
+        {/* Project Card 1 */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out">
-          <img
+          <Image
             src="/nextp1.png"
             alt="Next.js Insights"
+            width={500}
+            height={300}
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
@@ -47,10 +48,13 @@ const NextJsProjects: React.FC = () => {
           </div>
         </div>
 
+        {/* Project Card 2 */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out">
-          <img
+          <Image
             src="/todop2.png" 
             alt="To-Do List"
+            width={500}
+            height={300}
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
@@ -79,10 +83,13 @@ const NextJsProjects: React.FC = () => {
           </div>
         </div>
 
+        {/* Project Card 3 */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out">
-          <img
+          <Image
             src="/animalp3.png" 
             alt="Animal Pets Care Website"
+            width={500}
+            height={300}
             className="w-full h-48 object-cover"
           />
           <div className="p-4">

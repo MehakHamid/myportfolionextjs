@@ -1,9 +1,9 @@
 import React from 'react';
+import Image from 'next/image';
 
 const UiUxDesignProjects: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-green-100 p-6">
-    
       <div className="text-center mb-12">
         <h1 className="text-5xl font-bold text-green-700 mb-4">UI/UX Design Projects</h1>
         <p className="text-lg text-gray-600">
@@ -11,13 +11,14 @@ const UiUxDesignProjects: React.FC = () => {
         </p>
       </div>
 
-   
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
-       
+        {/* Project 1 */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
-          <img
-            src="/foodwp1.png" 
+          <Image
+            src="/foodwp1.png"
             alt="Food Delivery App Wireframe"
+            width={500}
+            height={300}
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
@@ -38,11 +39,13 @@ const UiUxDesignProjects: React.FC = () => {
           </div>
         </div>
 
-
+        {/* Project 2 */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
-          <img
-            src="/gym.png" 
+          <Image
+            src="/gym.png"
             alt="Gym App Login Design"
+            width={500}
+            height={300}
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
@@ -63,11 +66,13 @@ const UiUxDesignProjects: React.FC = () => {
           </div>
         </div>
 
-        {/* Facebook Login Screen Design */}
+        {/* Project 3 */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
-          <img
-            src="/logifb.png" // Replace with actual image path
+          <Image
+            src="/logifb.png"
             alt="Facebook Login Screen Design"
+            width={500}
+            height={300}
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
@@ -88,11 +93,13 @@ const UiUxDesignProjects: React.FC = () => {
           </div>
         </div>
 
-   
+        {/* Project Card: eCommerce Website Navbar (Updated Style) */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
-          <img
+          <Image
             src="/ecomp1.png"
             alt="eCommerce Website Navbar"
+            width={500}
+            height={300}
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
@@ -113,11 +120,13 @@ const UiUxDesignProjects: React.FC = () => {
           </div>
         </div>
 
-        
+        {/* Project Card: Food Delivery App Design (Updated Style) */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
-          <img
-            src="/foodp2.png" 
+          <Image
+            src="/foodp2.png"
             alt="Food Delivery App Design"
+            width={500}
+            height={300}
             className="w-full h-48 object-cover"
           />
           <div className="p-4">

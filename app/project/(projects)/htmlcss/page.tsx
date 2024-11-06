@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const HtmlCssProjects: React.FC = () => {
   return (
@@ -14,10 +15,13 @@ const HtmlCssProjects: React.FC = () => {
       {/* Project Cards Section */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
    
+        {/* Portfolio Website Card */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
-          <img
+          <Image
             src="/portp1.png"
             alt="Portfolio Website"
+            width={500}
+            height={300}
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
@@ -46,11 +50,13 @@ const HtmlCssProjects: React.FC = () => {
           </div>
         </div>
 
-       
+        {/* Static Resume Card */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
-          <img
+          <Image
             src="/static.png" 
             alt="Static Resume"
+            width={500}
+            height={300}
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
@@ -79,11 +85,13 @@ const HtmlCssProjects: React.FC = () => {
           </div>
         </div>
 
-  
+        {/* Dynamic Resume Builder Card */}
         <div className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-500 ease-in-out">
-          <img
+          <Image
             src="/dynamic-resume-project.jpg" 
             alt="Dynamic Resume Builder"
+            width={500}
+            height={300}
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
