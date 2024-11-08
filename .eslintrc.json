@@ -8,6 +8,7 @@
     "no-console": "off",
     "no-debugger": "off",
     "no-undef": "off",
-    "no-alert": "off"
+    "no-alert": "off",
+    "react/no-unescaped-entities": "off"
   }
 }
