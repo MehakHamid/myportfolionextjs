@@ -101,7 +101,7 @@ const HtmlCssProjects: React.FC = () => {
             </p>
             <div className="mt-4 flex space-x-4">
               <a
-                href="https://github.com/yourusername/dynamic-resume-builder"
+                href="https://github.com/MehakHamid/mileston3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white bg-gray-800 px-4 py-2 rounded-lg hover:bg-gray-900 transition"
@@ -109,7 +109,7 @@ const HtmlCssProjects: React.FC = () => {
                 GitHub
               </a>
               <a
-                href="https://dynamicresumebuilder.vercel.app"
+                href="https://dynamicresumebuilder-eight.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 transition"
